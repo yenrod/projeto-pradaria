@@ -40,7 +40,7 @@ body {margin: 0;}
 .logo {
     height: 77px;
     width: 77px;
-    background: url(./img/logo.png) center no-repeat;
+    background: url(../img/logo.png) center no-repeat;
     background-size: contain;
 }
 
