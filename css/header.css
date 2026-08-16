@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Intel One Mono';
+    src: url('/fonts/intel\ one\ mono/IntelOneMono-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('/fonts/Dmitry-Rastvortsev-KyivType/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ light2.otf');
+}
+
+@font-face {
+    font-family: 'Losevka Charon';
+    src: url('/fonts/losevka charon/IosevkaCharon-Light.ttf');
+}
+
+body {margin: 0;}
+
+.font-texto {
+    font-family: 'Losevka Charon', sans-serif;
+    margin: 0;
+}
+
+.font-titulo {
+    font-family: 'KyivType Sans', sans-serif;
+    margin: 0;
+}
+
+.engloba-all-margens {
+    margin: auto 4%;
+    height: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo {
+    height: 77px;
+    width: 77px;
+    background: url(/img/logo.png) center no-repeat;
+    background-size: contain;
+}
+
+.secoes {
+    display: flex;
+    gap: 5%;
+}
+
+.secoes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+    background: rgba(123, 123, 123, 0.16);
+    padding: 0px 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 15%;
+    font-family: 'Intel One Mono', sans-serif;
+}

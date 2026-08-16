@@ -1,0 +1,51 @@
+.engloba-all-sobre {
+    background-image: url(/img/sobre/fundo.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sobrenos-principal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.sobrenos-principal .font-titulo {
+    font-size: 70px;
+}
+
+.sobrenos-principal .font-texto {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.sobre-nos-texto1 {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrenos-secundario {
+    display: flex;
+}
+
+.conteudo-sobre-nos-secundario {
+    display: flex;
+    gap: 30px;
+}
+
+.conteudo-sobre-nos-secundario .font-titulo {
+    font-size: 50px;
+}
+
+.conteudo-sobre-nos-secundario .font-texto {
+    font-size: 25px;
+}

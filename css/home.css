@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('/fonts/Dmitry-Rastvortsev-KyivType/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ light2.otf');
+}
+
+@font-face {
+    font-family: 'Losevka Charon';
+    src: url('/fonts/losevka charon/IosevkaCharon-Light.ttf');
+}
+
+.engloba-all-home {
+    background-image: url(/img/home/fundo.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body {margin: 0;}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 80%;
+}
+
+.titulo {
+    font-size: 100px;
+    margin: 0!important;
+}
+
+.descricao {
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.setas-carousel {
+    width: 70px;
+    height: 40px;
+}
+
+.seta-esq {
+    background: url('/img/home/seta-esq.png') center;
+    background-size: cover;
+}
+
+.seta-dir {
+    background: url('/img/home/seta-dir.png') center;
+    background-size: cover;
+}
+
+.imgs-carousel {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
