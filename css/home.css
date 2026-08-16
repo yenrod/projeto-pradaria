@@ -9,7 +9,7 @@
 }
 
 .engloba-all-home {
-    background-image: url(/img/home/fundo.png) ;
+    background-image: url(./img/home/fundo.png) ;
     background-size: cover;
     background-position: center;
     height: 100vh;
